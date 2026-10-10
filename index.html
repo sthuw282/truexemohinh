@@ -9,88 +9,115 @@
 <meta property="og:description" content="Xe mô hình 1:64 Mini GT, Kaido House, Poprace, Xe Mica. Đặt hàng nhanh qua Zalo.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏁%3C/text%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Be+Vietnam+Pro:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
 <style>
-:root{--base:#fff7fb;--b1:#ff9ccd;--b2:#ffe45c;--b3:#6ee7c8;--b4:#9db8ff;--ink:#14122B;--card:#fff;--mut:#4b4a66;--y:#FFC400;--pk:#E0246A;--ok:#0b7a43;--bad:#c4271c;box-sizing:border-box}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--base:#150f33;--b1:#7a1d5c;--b2:#6b5a00;--b3:#0d5c52;--b4:#233f9c;--ink:#fff;--card:#241d4f;--mut:#c4c2e8;--ok:#5fe0a0;--bad:#ff8f86}}
-:root[data-theme="dark"]{--base:#150f33;--b1:#7a1d5c;--b2:#6b5a00;--b3:#0d5c52;--b4:#233f9c;--ink:#fff;--card:#241d4f;--mut:#c4c2e8;--ok:#5fe0a0;--bad:#ff8f86}
+:root{--bg:#F2F2F2;--ink:#222;--dark:#2B2B2B;--mut:#666;--line:#DCDCDC;--zl:#0068FF;--zl2:#0052CC;--ok:#2E7D32;--warn:#B26A00;--bad:#C62828;color-scheme:light;box-sizing:border-box}
 *{box-sizing:border-box}
-html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
-body{margin:0;background:var(--base);color:var(--ink);font:16px/1.5 'Be Vietnam Pro',system-ui,sans-serif;min-height:100%}
-body::before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 10% 6%,var(--b1),transparent 40%),radial-gradient(circle at 92% 10%,var(--b2),transparent 36%),radial-gradient(circle at 85% 88%,var(--b3),transparent 40%),radial-gradient(circle at 6% 92%,var(--b4),transparent 42%)}
-body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.1;background:radial-gradient(var(--ink) 1.3px,transparent 1.6px) 0 0/24px 24px}
-.wrap{max-width:1120px;margin:0 auto;padding:calc(env(safe-area-inset-top,0px) + 12px) 16px calc(env(safe-area-inset-bottom,0px) + 70px)}
-.top{position:sticky;top:calc(env(safe-area-inset-top,0px) + 8px);z-index:20;display:flex;align-items:center;gap:10px;background:var(--card);border:3px solid var(--ink);border-radius:999px;padding:6px 8px 6px 6px;box-shadow:4px 4px 0 var(--ink)}
-.top .cur{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font:800 1.15rem 'Baloo 2',sans-serif}
-button,.btn{font:600 15px 'Be Vietnam Pro',sans-serif;border:3px solid var(--ink);background:var(--card);color:var(--ink);padding:7px 14px;border-radius:999px;cursor:pointer;text-decoration:none;display:inline-block;box-shadow:3px 3px 0 var(--ink)}
-button:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
-button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:4px solid var(--pk);outline-offset:2px}
-.top button,.top .btn{box-shadow:none}
-.burger{display:flex;align-items:center;gap:8px;background:var(--y);color:#14122B;border-color:#14122B}
-.burger s{display:block;width:18px;height:14px;background:linear-gradient(#14122B 0 0) 0 0/100% 3px,linear-gradient(#14122B 0 0) 0 50%/100% 3px,linear-gradient(#14122B 0 0) 0 100%/100% 3px;background-repeat:no-repeat}
-.zl{background:#0068FF;color:#fff;border-color:#14122B}
-.flag{height:26px;margin-top:16px;border:3px solid var(--ink);border-radius:8px;background:repeating-conic-gradient(var(--ink) 0 25%,var(--card) 0 50%) 0 0/26px 26px}
-h1{font:800 clamp(2.6rem,11vw,5.2rem)/.95 'Baloo 2',sans-serif;margin:22px 0 0;text-shadow:4px 4px 0 var(--y),8px 8px 0 var(--pk)}
-.tag{margin:16px 0 0;max-width:600px;font-weight:600}
-.scrim{position:fixed;inset:0;background:rgba(10,8,30,.55);z-index:40;display:none}
+html{scroll-behavior:smooth;scroll-padding-top:12px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Roboto,system-ui,sans-serif}
+.in{max-width:1180px;margin:0 auto;padding:0 16px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+button,.btn{font:500 14px/1.2 Roboto,sans-serif;border:1px solid #BDBDBD;background:#fff;color:var(--ink);padding:9px 16px;border-radius:2px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+button:hover,.btn:hover{background:#EDEDED}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #7DB1FF;outline-offset:2px}
+.zl,.pri{background:var(--zl);border-color:var(--zl);color:#fff}
+.zl:hover,.pri:hover{background:var(--zl2);border-color:var(--zl2)}
+button:disabled{opacity:.5;cursor:not-allowed}
+.bar{background:var(--dark);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.bar .in{display:flex;align-items:stretch;justify-content:space-between;gap:16px}
+.tabs{display:flex;overflow-x:auto;scrollbar-width:none;margin-left:-16px}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{border:0;border-radius:0;background:transparent;color:#D6D6D6;padding:0 22px;min-height:54px;font:500 15px Roboto,sans-serif;letter-spacing:.02em;white-space:nowrap}
+.tabs button:hover{background:#3A3A3A;color:#fff}
+.tabs button.on{background:var(--bg);color:#111;box-shadow:inset 0 3px 0 var(--bc)}
+.note{align-self:center;font-size:13px;letter-spacing:.08em;color:#BDBDBD;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:38%}
+.hd .in{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:28px;padding-bottom:26px}
+.logo{text-decoration:none;color:#111;display:block;min-width:0}
+.logo b{display:block;font:900 italic clamp(34px,6vw,50px)/.9 Roboto,sans-serif;letter-spacing:-.02em;text-transform:uppercase}
+.logo span{display:block;font:900 italic clamp(17px,3vw,26px)/1.1 Roboto,sans-serif;text-transform:uppercase;margin-top:4px}
+.srf{display:flex;width:min(420px,100%)}
+.srf input{border-radius:0;height:46px;border-right:0}
+.sbtn{border-radius:0;background:var(--dark);border-color:var(--dark);width:50px;height:46px;justify-content:center;padding:0;color:#fff}
+.sbtn:hover{background:#000}
+.nv{border-bottom:1px solid #333}
+.nv .in{display:flex;justify-content:space-between;align-items:center}
+.nv a,.nv button{border:0;background:transparent;border-radius:0;font:700 18px Roboto,sans-serif;color:#444;padding:18px 10px;text-decoration:none}
+.nv a:hover,.nv button:hover{color:#000;background:transparent;box-shadow:inset 0 -3px 0 #000}
+.nv s{display:block;width:18px;height:13px;background:linear-gradient(currentColor 0 0) 0 0/100% 2px,linear-gradient(currentColor 0 0) 0 50%/100% 2px,linear-gradient(currentColor 0 0) 0 100%/100% 2px;background-repeat:no-repeat}
+.wrap{max-width:1180px;margin:0 auto;padding:30px 16px 0}
+.ban{position:relative;overflow:hidden;background:#D5D8DD;aspect-ratio:21/8}
+.sl{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s}
+.sl.on{opacity:1}
+.ar{position:absolute;top:50%;margin-top:-22px;width:46px;height:46px;justify-content:center;padding:0;border:1px solid #fff;background:rgba(0,0,0,.28);color:#fff;border-radius:0;font-size:26px;line-height:1}
+.ar:hover{background:rgba(0,0,0,.5)}.ar.l{left:16px}.ar.r{right:16px}
+.dots{position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:8px}
+.dt{width:10px;height:10px;padding:0;border-radius:50%;border:1px solid #fff;background:rgba(255,255,255,.4)}
+.dt.on{background:#fff}
+.ban.ph{display:grid;place-items:center;text-align:center;padding:28px;background:linear-gradient(135deg,#CBCFD6,#EEF0F3)}
+.ban.ph .big{font:900 italic clamp(30px,6vw,56px)/1 Roboto,sans-serif;text-transform:uppercase;color:#111}
+.ban.ph p{margin:12px auto 20px;max-width:620px;color:#444}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:40;display:none}
 .scrim.open{display:block}
-#dr{position:fixed;top:0;bottom:0;left:0;width:min(330px,88vw);z-index:50;background:var(--card);border-right:3px solid var(--ink);padding:calc(env(safe-area-inset-top,0px) + 14px) 14px calc(env(safe-area-inset-bottom,0px) + 14px);overflow-y:auto;transform:translateX(-105%);transition:transform .2s;visibility:hidden}
+#dr{position:fixed;top:0;bottom:0;left:0;width:min(340px,88vw);z-index:50;background:#fff;box-shadow:8px 0 30px rgba(0,0,0,.25);padding:calc(env(safe-area-inset-top,0px) + 16px) 16px calc(env(safe-area-inset-bottom,0px) + 16px);overflow-y:auto;transform:translateX(-105%);transition:transform .2s;visibility:hidden}
 #dr.open{transform:none;visibility:visible}
-.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.dh b{font:800 1.5rem 'Baloo 2',sans-serif}
-.ci{display:flex;width:100%;align-items:center;gap:10px;margin-bottom:10px;text-align:left;box-shadow:3px 3px 0 var(--ink)}
-.ci i{width:16px;height:16px;border-radius:50%;background:var(--bc);border:2px solid var(--ink);flex:none}
-.ci span{flex:1}.ci b{font-size:13px;opacity:.75}
-.ci.on{background:var(--bc);color:var(--bf)}.ci.on i{background:var(--bf)}
+.dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.dh b{font-size:18px;font-weight:700}
+.ci{display:flex;width:100%;align-items:center;gap:10px;margin-bottom:4px;text-align:left;border-color:transparent;background:transparent;padding:12px}
+.ci i{width:10px;height:10px;background:var(--bc);flex:none}
+.ci span{flex:1;white-space:normal}.ci b{font-size:13px;font-weight:500;color:var(--mut)}
+.ci.on{background:#EDEDED;border-color:#CFCFCF}
 .cr{display:flex;gap:6px;align-items:center;margin-bottom:10px}
 .cr input[type=color]{width:42px;padding:2px;height:40px;flex:none}
 .cr input[type=text]{flex:1;min-width:0}
-.cr button{padding:5px 10px;box-shadow:none}
-.admin{background:var(--y);color:#14122B;padding:12px;border:3px solid #14122B;border-radius:16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:18px;box-shadow:4px 4px 0 #14122B}
-.admin span{flex:1 1 220px;font-weight:600;font-size:14px}
-.admin button{background:#fff;color:#14122B;border-color:#14122B;box-shadow:3px 3px 0 #14122B}
-.tb{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px}
-.tb input{flex:1 1 220px;min-width:0}.tb select{flex:0 1 190px}
-input,select,textarea{font:inherit;color:var(--ink);background:var(--card);border:3px solid var(--ink);border-radius:12px;padding:8px 12px;width:100%}
-.ct{font:800 1.7rem 'Baloo 2',sans-serif;margin:6px 0 14px;display:flex;align-items:center;gap:10px}
-.ct i{width:20px;height:20px;border-radius:50%;background:var(--bc);border:3px solid var(--ink)}
-.ct small{font:600 15px 'Be Vietnam Pro';color:var(--mut)}
-#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:22px}
-.card{background:var(--card);border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);display:flex;flex-direction:column;overflow:hidden}
-.cb{background:var(--bc);color:var(--bf);padding:6px 12px;border-bottom:3px solid var(--ink);font:800 1.05rem 'Baloo 2',sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.pic{aspect-ratio:4/3;background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--bc) 24%,transparent) 0 12px,transparent 12px 24px);display:grid;place-items:center;overflow:hidden;border-bottom:3px solid var(--ink);position:relative}
-.pic img{width:100%;height:100%;object-fit:cover}.pic svg{width:72%}
-.out .pic>*{filter:grayscale(1);opacity:.5}
-.out .pic::after{content:"Hết hàng";position:absolute;font:800 1.5rem 'Baloo 2',sans-serif;background:var(--ink);color:var(--card);padding:0 14px;border-radius:8px;transform:rotate(-8deg)}
-.b{padding:12px 14px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
-h3{font:800 1.3rem/1.1 'Baloo 2',sans-serif;margin:0}
-.chips{display:flex;gap:6px;flex-wrap:wrap}
-.chips i{font-style:normal;font-size:13px;border:2px solid var(--ink);border-radius:999px;padding:0 9px}
-.d{margin:0;color:var(--mut);font-size:14px;flex:1}
-.row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
-.price{font:800 1.5rem 'Baloo 2',sans-serif}
-.stk{font-size:14px;font-weight:600;color:var(--ok)}.stk.low{color:#b26a00}.stk.zero{color:var(--bad)}
-.b>.zl{width:100%}.b>button:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}
-.acts{display:flex;gap:6px}.acts button{flex:1;padding:6px 8px}
-.empty{grid-column:1/-1;border:3px dashed var(--ink);padding:34px;text-align:center;border-radius:16px;background:var(--card)}
-.more{display:block;margin:26px auto 0}
-.foot{margin-top:36px;padding:14px 16px;border:3px dashed var(--ink);border-radius:16px;background:var(--card);font-size:14px;text-align:center}
-dialog{border:3px solid var(--ink);border-radius:18px;background:var(--base);color:var(--ink);padding:18px;width:min(540px,94vw);max-height:92vh}
-dialog::backdrop{background:rgba(10,8,30,.6)}
-dialog h2{font:800 1.9rem 'Baloo 2',sans-serif;margin:0 0 6px}
-label{display:block;font-weight:600;font-size:14px;margin-top:10px}
+.cr button{padding:7px 10px}
+.admin{background:#FFF8E1;color:#4a3b00;padding:14px;border:1px solid #F0D98A;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:24px}
+.admin span{flex:1 1 100%;font-size:14px}
+.sh{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin:34px 0 16px;padding-bottom:10px;border-bottom:1px solid #333}
+.sh h2{margin:0;font:700 24px Roboto,sans-serif}
+.sh small{font:400 14px Roboto;color:var(--mut);margin-left:8px}
+.sh select{width:auto;min-width:190px}
+input,select,textarea{font:inherit;font-size:15px;color:var(--ink);background:#fff;border:1px solid #BDBDBD;border-radius:2px;padding:9px 12px;width:100%}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:18px}
+.card{background:#fff;display:flex;flex-direction:column;transition:box-shadow .2s}
+.card:hover{box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.pic{aspect-ratio:1/1;background:#fff;display:grid;place-items:center;overflow:hidden;position:relative;border-bottom:1px solid #EEE}
+.pic img{width:100%;height:100%;object-fit:contain}.pic svg{width:70%}
+.out .pic>img,.out .pic>svg{filter:grayscale(1);opacity:.5}
+.oos{position:absolute;top:0;left:0;background:var(--dark);color:#fff;font-size:12px;font-weight:500;padding:4px 12px;letter-spacing:.03em}
+.b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:5px;flex:1}
+.cat{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:500;color:var(--mut);letter-spacing:.03em}
+.cat i{width:8px;height:8px;background:var(--bc)}
+h3{font-size:15px;font-weight:500;line-height:1.35;margin:0}
+.sp{margin:0;font-size:13px;color:var(--mut)}
+.d{margin:0;color:var(--mut);font-size:13.5px;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}
+.price{font-weight:700;font-size:18px}
+.stk{font-size:13px;font-weight:500;color:var(--ok)}.stk.low{color:var(--warn)}.stk.zero{color:var(--bad)}
+.b>.zl{width:100%;justify-content:center;margin-top:8px}
+.acts{display:flex;gap:6px;margin-top:8px}.acts button{flex:1;justify-content:center;padding:8px}
+.empty{grid-column:1/-1;border:1px dashed #AAA;padding:40px 20px;text-align:center;background:#fff;color:var(--mut)}
+.more{display:flex;margin:28px auto 0}
+.ft{background:var(--dark);color:#BDBDBD;margin-top:60px;padding:38px 0 calc(env(safe-area-inset-bottom,0px) + 38px);font-size:14px}
+.ft .in{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.ft b{display:block;color:#fff;font-size:16px;margin-bottom:8px}
+.ft p{margin:4px 0}.ft a{color:#fff}
+dialog{border:none;border-radius:4px;background:#fff;color:var(--ink);padding:22px;width:min(540px,94vw);max-height:92vh;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+dialog h2{font-size:20px;font-weight:700;margin:0 0 6px}
+label{display:block;font-weight:500;font-size:13px;margin-top:12px;margin-bottom:4px;color:#333}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.dl{display:flex;gap:8px;justify-content:space-between;margin-top:16px;flex-wrap:wrap}
-.pri{background:var(--y);color:#14122B;border-color:#14122B}
-#prev{max-width:140px;margin-top:8px;border:3px solid var(--ink);border-radius:10px;display:none}
+.dl{display:flex;gap:8px;justify-content:space-between;margin-top:18px;flex-wrap:wrap}
+#prev{max-width:140px;margin-top:8px;border:1px solid var(--line);display:none}
 .hint{font-size:13px;color:var(--mut);margin:6px 0 0}
-#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--card);padding:10px 18px;border-radius:999px;font-weight:600;display:none;max-width:90vw;z-index:99}
-@media (prefers-reduced-motion:reduce){#dr{transition:none}}
+.bnr{display:flex;gap:10px;align-items:center;margin-top:10px}.bnr img{width:150px;aspect-ratio:21/8;object-fit:cover}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#111;color:#fff;padding:11px 18px;border-radius:2px;font-size:14px;display:none;max-width:90vw;z-index:99}
+@media (max-width:700px){.note{display:none}.hd .in{flex-wrap:wrap;gap:14px;padding-top:20px;padding-bottom:18px}.srf{width:100%}.nv a,.nv button{font-size:15px;padding:14px 6px}.wrap{padding-top:18px}.ban{aspect-ratio:16/9}.ar{width:38px;height:38px;margin-top:-19px}#grid{grid-template-columns:repeat(2,1fr);gap:10px}.b{padding:10px 12px 12px}.price{font-size:16px}.row{flex-direction:column;align-items:flex-start;gap:2px}.tabs button{padding:0 16px}}
+@media (prefers-reduced-motion:reduce){#dr,.sl,.card{transition:none}}
 </style>
 </head>
 <body>
 <noscript><p style="padding:20px">Trang cần bật JavaScript để hiển thị danh sách xe.</p></noscript>
-<div class="wrap" id="app"></div>
+<div id="app"></div>
 <div id="toast" role="status"></div>
 <dialog id="ed"><form method="dialog" id="f">
 <h2 id="edt">Thêm xe</h2>
@@ -123,6 +150,10 @@ label{display:block;font-weight:600;font-size:14px;margin-top:10px}
 <textarea id="bt" rows="9" placeholder="Mini GT | Nissan GT-R R35 | Chase | Xanh | 220000 | 3&#10;Kaido House | Datsun 510 | V1 | Cam | 480000 | 2"></textarea>
 <div class="dl"><span></span><span><button type="button" id="bc">Hủy</button> <button class="pri">Thêm các xe này</button></span></div>
 </form></dialog>
+<dialog id="bnd"><form method="dialog" id="bnf"><h2>Ảnh banner đầu trang</h2>
+<p class="hint">Dùng ảnh ngang, tốt nhất khoảng 1600x600. Có nhiều ảnh thì banner tự chuyển. Ví dụ: xe mới về, thông báo hàng pre-order.</p>
+<label for="bni">Thêm ảnh banner</label><input id="bni" type="file" accept="image/*" multiple><div id="bnl"></div>
+<div class="dl"><span></span><button class="pri">Xong</button></div></form></dialog>
 <script>
 const PAGE=24,PAL=['#E4262C','#FF7A00','#FFC400','#19C47E','#1E6BFF','#8B3DFF','#E0246A','#00B8D9'];
 const ADMIN=new URLSearchParams(location.search).has('admin');
@@ -138,7 +169,7 @@ const cnt=b=>b==='all'?S.items.length:S.items.filter(i=>i.brand===b).length;
 const src=p=>B[p]?(urls[p]||(urls[p]=URL.createObjectURL(B[p]))):p;
 const st=m=>{const e=$('#st');if(e)e.textContent=m};
 function toast(m){const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>t.style.display='none',3500)}
-function car(h){return `<svg viewBox="0 0 120 50" aria-hidden="true"><path d="M8 34c0-5 3-7 9-8l14-10c3-2 6-3 10-3h26c5 0 9 2 13 5l12 7c7 1 10 3 10 9v3H8z" fill="${esc(h||'#888')}" stroke="#14122B" stroke-width="2.5" stroke-linejoin="round"/><circle cx="34" cy="38" r="8" fill="#14122B"/><circle cx="90" cy="38" r="8" fill="#14122B"/><circle cx="34" cy="38" r="3" fill="#ddd"/><circle cx="90" cy="38" r="3" fill="#ddd"/></svg>`}
+function car(h){return `<svg viewBox="0 0 120 50" aria-hidden="true"><path d="M8 34c0-5 3-7 9-8l14-10c3-2 6-3 10-3h26c5 0 9 2 13 5l12 7c7 1 10 3 10 9v3H8z" fill="${esc(h||'#9aa5b4')}" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round"/><circle cx="34" cy="38" r="8" fill="#2B2B2B"/><circle cx="90" cy="38" r="8" fill="#2B2B2B"/><circle cx="34" cy="38" r="3" fill="#dfe5ec"/><circle cx="90" cy="38" r="3" fill="#dfe5ec"/></svg>`}
 
 /* Bản nháp lưu trên máy chủ shop (IndexedDB), chỉ dùng ở chế độ quản lý */
 const idb=()=>new Promise((ok,no)=>{const r=indexedDB.open('truexe',1);r.onupgradeneeded=()=>r.result.createObjectStore('k');r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error)});
@@ -149,43 +180,67 @@ function save(){
 }
 
 async function init(){
-  $('#app').innerHTML='<p class="tag" style="padding:30px 0">Đang tải danh sách xe...</p>';
+  $('#app').innerHTML='<p style="padding:30px 16px">Đang tải danh sách xe...</p>';
   try{const r=await fetch('data.json',{cache:'no-cache'});if(!r.ok)throw 0;SITE=await r.json()}catch(e){}
   if(ADMIN){try{const d=await kv('get','draft');if(d&&d.S){S=d.S;B=d.B||{};draft=true}}catch(e){}}
   if(!S)S=SITE||(ADMIN?JSON.parse(JSON.stringify(DEF)):null);
-  if(!S){$('#app').innerHTML='<p class="tag" style="padding:30px 0">Chưa tải được danh sách xe. Bạn thử tải lại trang giúp mình nhé.</p>';return}
-  S.items.forEach(i=>{if(!cat(i.brand))S.cats.push({n:i.brand,c:PAL[S.cats.length%8]})});
+  if(!S){$('#app').innerHTML='<p style="padding:30px 16px">Chưa tải được danh sách xe. Bạn thử tải lại trang giúp mình nhé.</p>';return}
+  S.items.forEach(i=>{if(!cat(i.brand))S.cats.push({n:i.brand,c:PAL[S.cats.length%8]})});if(!S.banners)S.banners=[];
   document.title=S.shop.name;render();
 }
 function setD(v){dopen=v;$('#dr').classList.toggle('open',v);$('#sc2').classList.toggle('open',v);$('#mn').setAttribute('aria-expanded',v)}
 function pick(b){brand=b;shown=PAGE;q='';dopen=false;render();window.scrollTo(0,0)}
 
 function render(){
-  const c=cat(brand);
-  $('#app').innerHTML=`<div class="top"><button class="burger" id="mn" aria-expanded="false" aria-controls="dr"><s></s>Danh mục</button>
-  <span class="cur">${brand==='all'?'Tất cả xe':esc(brand)}</span><a class="btn zl" href="${esc(zl())}" target="_blank" rel="noopener">Zalo</a></div>
+  S.banners=S.banners||[];
+  const n=S.banners.length,c=cat(brand),tt=brand==='all'?'Tất cả sản phẩm':esc(brand),w=String(S.shop.name).trim().split(/\s+/);
+  if(bi>=n)bi=0;
+  $('#app').innerHTML=`<div class="bar"><div class="in"><div class="tabs" role="group" aria-label="Hãng xe"><button class="${brand==='all'?'on':''}" style="--bc:#111" data-b="all">Tất cả</button>${S.cats.map(k=>`<button class="${brand===k.n?'on':''}" style="--bc:${k.c}" data-b="${esc(k.n)}">${esc(k.n)}</button>`).join('')}</div><span class="note">${esc(S.shop.tag)}</span></div></div>
+  <header class="hd"><div class="in"><a class="logo" href="./" aria-label="${esc(S.shop.name)}"><b>${esc(w[0])}</b>${w.length>1?`<span>${esc(w.slice(1).join(' '))}</span>`:''}</a>
+  <form class="srf" id="srf" role="search"><input type="search" id="q" placeholder="Tìm tên xe, màu, kiểu mẫu..." aria-label="Tìm xe" value="${esc(q)}"><button class="sbtn" type="submit" aria-label="Tìm kiếm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></button></form></div></header>
+  <nav class="nv" aria-label="Điều hướng"><div class="in"><button id="mn" aria-expanded="false" aria-controls="dr"><s></s>&nbsp;Danh mục</button><a href="#sp">Sản phẩm</a><a href="${esc(zl())}" target="_blank" rel="noopener">Nhắn Zalo</a><a href="#lh">Liên hệ</a></div></nav>
   <aside id="dr" aria-label="Danh mục"><div class="dh"><b>Danh mục</b><button id="cl" aria-label="Đóng menu">Đóng</button></div>
-  <button class="ci ${brand==='all'?'on':''}" style="--bc:#14122B;--bf:#fff" data-b="all"><i></i><span>Tất cả</span><b>${cnt('all')}</b></button>
+  <button class="ci ${brand==='all'?'on':''}" style="--bc:#111" data-b="all"><i></i><span>Tất cả</span><b>${cnt('all')}</b></button>
   ${S.cats.map((k,x)=>edit?`<div class="cr"><input type="color" value="${k.c}" data-ci="${x}" aria-label="Màu danh mục"><input type="text" value="${esc(k.n)}" data-cn="${x}" aria-label="Tên danh mục"><button data-cv="${x}">${cnt(k.n)}</button><button data-cd="${x}" aria-label="Xóa danh mục">Xóa</button></div>`
-  :`<button class="ci ${brand===k.n?'on':''}" style="--bc:${k.c};--bf:${fg(k.c)}" data-b="${esc(k.n)}"><i></i><span>${esc(k.n)}</span><b>${cnt(k.n)}</b></button>`).join('')}
+  :`<button class="ci ${brand===k.n?'on':''}" style="--bc:${k.c}" data-b="${esc(k.n)}"><i></i><span>${esc(k.n)}</span><b>${cnt(k.n)}</b></button>`).join('')}
   ${edit?'<button id="ac" class="pri">Thêm danh mục</button><p class="hint">Bấm số xe để xem danh mục. Chỉ xóa được danh mục đã trống.</p>':''}</aside><div class="scrim" id="sc2"></div>
-  <div class="flag"></div><h1>${esc(S.shop.name)}</h1><p class="tag">${esc(S.shop.tag)}</p>
-  ${ADMIN?`<div class="admin"><span>${edit?'Chế độ quản lý: mọi thay đổi chỉ lưu trên máy này cho đến khi bạn tải bản cập nhật và đưa lên GitHub. Khách không thấy phần này.':'Đang xem như khách.'}${draft?' Có bản nháp chưa đăng.':''}</span>${edit?'<button id="add">Thêm xe</button><button id="bulk">Nhập nhiều xe</button><button id="set">Sửa chữ trên web</button><button id="exp" class="pri">Tải bản cập nhật (.zip)</button><button id="clr">Xóa bản nháp</button>':''}<button id="tg">${edit?'Xem như khách':'Quay lại chỉnh sửa'}</button><span id="st"></span></div>`:''}
-  <div class="tb"><input type="search" id="q" placeholder="Tìm tên xe, màu, kiểu mẫu..." aria-label="Tìm xe" value="${esc(q)}">
-  <select id="so" aria-label="Sắp xếp"><option value="new">Mới thêm trước</option><option value="asc">Giá thấp đến cao</option><option value="desc">Giá cao đến thấp</option></select></div>
-  <div class="ct" style="--bc:${c?c.c:'#14122B'}"><i></i>${brand==='all'?'Tất cả xe':esc(brand)} <small id="n"></small></div>
-  <main id="grid"></main><button class="more" id="mo" style="display:none">Xem thêm xe</button>
-  ${S.shop.foot?`<div class="foot">${esc(S.shop.foot)}</div>`:''}`;
+  <h1 class="vh">${esc(S.shop.name)}</h1>
+  <div class="wrap">
+  ${ADMIN?`<div class="admin"><span>${edit?'Chế độ quản lý: mọi thay đổi chỉ lưu trên máy này cho đến khi bạn tải bản cập nhật và đưa lên GitHub. Khách không thấy phần này.':'Đang xem như khách.'}${draft?' Có bản nháp chưa đăng.':''}</span>${edit?'<button id="add" class="pri">Thêm xe</button><button id="bulk">Nhập nhiều xe</button><button id="bnb">Quản lý banner</button><button id="set">Sửa chữ trên web</button><button id="exp">Tải bản cập nhật (.zip)</button><button id="clr">Xóa bản nháp</button>':''}<button id="tg">${edit?'Xem như khách':'Quay lại chỉnh sửa'}</button><span id="st"></span></div>`:''}
+  ${n?`<section class="ban" aria-roledescription="carousel" aria-label="Banner">${S.banners.map((p,x)=>`<img class="sl ${x===bi?'on':''}" src="${esc(src(p))}" alt="Banner ${x+1}">`).join('')}${n>1?`<button class="ar l" id="bp" aria-label="Ảnh trước">&#8249;</button><button class="ar r" id="bnx" aria-label="Ảnh sau">&#8250;</button><div class="dots">${S.banners.map((p,x)=>`<button class="dt ${x===bi?'on':''}" data-i="${x}" aria-label="Ảnh ${x+1}"></button>`).join('')}</div>`:''}</section>`
+  :`<section class="ban ph"><div><div class="big">${esc(S.shop.name)}</div><p>${esc(S.shop.tag)}</p><a class="btn zl" href="${esc(zl())}" target="_blank" rel="noopener">Nhắn Zalo đặt hàng</a></div></section>`}
+  <div id="sp"><div class="sh"><h2>${tt}<small id="n"></small></h2><select id="so" aria-label="Sắp xếp"><option value="new">Mới thêm trước</option><option value="asc">Giá thấp đến cao</option><option value="desc">Giá cao đến thấp</option></select></div>
+  <main id="grid"></main><button class="more" id="mo" style="display:none">Xem thêm xe</button></div></div>
+  <footer class="ft" id="lh"><div class="in"><div><b>${esc(S.shop.name)}</b><p>${esc(S.shop.tag)}</p></div><div><b>Liên hệ đặt hàng</b><p>Zalo: <a href="${esc(zl())}" target="_blank" rel="noopener">${esc(S.shop.zalo)}</a></p></div>${S.shop.foot?`<div><b>Lưu ý</b><p>${esc(S.shop.foot)}</p></div>`:''}</div></footer>`;
   $('#so').value=sort;
   $('#mn').onclick=()=>setD(true);$('#cl').onclick=()=>setD(false);$('#sc2').onclick=()=>setD(false);
   $('#q').oninput=e=>{q=e.target.value.toLowerCase();shown=PAGE;grid()};
+  $('#srf').onsubmit=e=>{e.preventDefault();$('#sp').scrollIntoView()};
   $('#so').onchange=e=>{sort=e.target.value;shown=PAGE;grid()};
   $('#mo').onclick=()=>{shown+=PAGE;grid()};
   document.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>pick(b.dataset.b));
+  if($('#bp')){$('#bp').onclick=()=>{bgo(bi-1);bstart()};$('#bnx').onclick=()=>{bgo(bi+1);bstart()};document.querySelectorAll('.dt').forEach(d=>d.onclick=()=>{bgo(+d.dataset.i);bstart()})}
+  bstart();
   if(ADMIN){$('#tg').onclick=()=>{edit=!edit;render()};
-    if(edit){$('#add').onclick=()=>openEd(null);$('#bulk').onclick=()=>{$('#bt').value='';$('#bd').showModal()};$('#set').onclick=openSet;$('#exp').onclick=exp;$('#clr').onclick=clr;catEdit()}}
+    if(edit){$('#add').onclick=()=>openEd(null);$('#bulk').onclick=()=>{$('#bt').value='';$('#bd').showModal()};$('#bnb').onclick=openBn;$('#set').onclick=openSet;$('#exp').onclick=exp;$('#clr').onclick=clr;catEdit()}}
   grid();
 }
+let bi=0,btm;
+function bgo(i){const n=(S.banners||[]).length;if(!n)return;bi=(i+n)%n;document.querySelectorAll('.sl').forEach((e,x)=>e.classList.toggle('on',x===bi));document.querySelectorAll('.dt').forEach((e,x)=>e.classList.toggle('on',x===bi))}
+function bstart(){clearInterval(btm);if((S.banners||[]).length>1&&!matchMedia('(prefers-reduced-motion:reduce)').matches)btm=setInterval(()=>bgo(bi+1),5000)}
+function bnList(){
+  $('#bnl').innerHTML=(S.banners||[]).map((p,x)=>`<div class="bnr"><img src="${esc(src(p))}" alt="Banner ${x+1}"><button type="button" data-bd="${x}">Xóa</button></div>`).join('')||'<p class="hint">Chưa có ảnh banner.</p>';
+  document.querySelectorAll('[data-bd]').forEach(b=>b.onclick=()=>{const p=S.banners.splice(+b.dataset.bd,1)[0];delete B[p];save();bnList()});
+}
+function openBn(){bnList();$('#bnd').showModal()}
+$('#bni').onchange=async e=>{
+  for(const f of e.target.files){await new Promise(ok=>{const u=URL.createObjectURL(f),im=new Image();im.onerror=ok;im.onload=()=>{
+    const k=Math.min(1,1600/im.width),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;
+    c.getContext('2d').drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);
+    c.toBlob(b=>{const p='images/b-'+Date.now().toString(36)+Math.random().toString(36).slice(2,5)+'.jpg';B[p]=b;S.banners.push(p);ok()},'image/jpeg',.82)};im.src=u})}
+  e.target.value='';save();bnList();
+};
+$('#bnd').onclose=()=>{bi=0;render()};
 function catEdit(){
   $('#ac').onclick=()=>{let n=1;while(cat('Danh mục '+n))n++;S.cats.push({n:'Danh mục '+n,c:PAL[S.cats.length%8]});save();render();setD(true)};
   document.querySelectorAll('[data-ci]').forEach(e=>e.onchange=()=>{S.cats[e.dataset.ci].c=e.value;save();render();setD(true)});
@@ -204,11 +259,11 @@ function grid(){
   $('#n').textContent=l.length+' xe';
   const v=l.slice(0,shown);
   $('#grid').innerHTML=v.length?v.map(i=>{
-    const s=+i.stock||0,b=cat(i.brand)||{c:'#8B3DFF'},k=s<1?'zero':s<=2?'low':'';
-    return `<article class="card ${s<1?'out':''}" data-id="${esc(i.id)}" style="--bc:${b.c};--bf:${fg(b.c)}"><div class="cb">${esc(i.brand)}</div>
-    <div class="pic">${i.img?`<img src="${esc(src(i.img))}" alt="${esc(i.name)}" loading="lazy" decoding="async">`:car(i.hex)}</div>
-    <div class="b"><h3>${esc(i.name)}</h3><div class="chips">${i.series?`<i>${esc(i.series)}</i>`:''}${i.color?`<i>${esc(i.color)}</i>`:''}</div>
-    <p class="d">${esc(i.desc)}</p>
+    const s=+i.stock||0,b=cat(i.brand)||{c:'#8B3DFF'},k=s<1?'zero':s<=2?'low':'',sp=[i.series,i.color].filter(Boolean).map(esc).join(' · ');
+    return `<article class="card ${s<1?'out':''}" data-id="${esc(i.id)}" style="--bc:${b.c}">
+    <div class="pic">${i.img?`<img src="${esc(src(i.img))}" alt="${esc(i.name)}" loading="lazy" decoding="async">`:car(i.hex)}${s<1?'<span class="oos">Hết hàng</span>':''}</div>
+    <div class="b"><span class="cat"><i></i>${esc(i.brand)}</span><h3>${esc(i.name)}</h3>${sp?`<p class="sp">${sp}</p>`:''}
+    ${i.desc?`<p class="d">${esc(i.desc)}</p>`:'<p class="d"></p>'}
     <div class="row"><span class="price">${vnd(i.price)}</span><span class="stk ${k}">${s<1?'Hết hàng':s<=2?'Chỉ còn '+s:'Còn '+s}</span></div>
     ${edit?`<div class="acts"><button data-a="m" aria-label="Giảm 1">−1</button><button data-a="p" aria-label="Tăng 1">+1</button><button data-a="e">Sửa</button></div>`
     :`<button class="zl" data-a="o" ${s<1?'disabled':''}>${s<1?'Hết hàng':esc(S.shop.btn||'Đặt qua Zalo')}</button>`}</div></article>`}).join('')
