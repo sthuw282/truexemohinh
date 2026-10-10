@@ -1,0 +1,32 @@
+{
+ "shop": {
+  "name": "True xe mô hình",
+  "tag": "Mini GT, Kaido House, Poprace, Xe Mica và nhiều hãng khác. Thích xe nào cứ nhắn Zalo để chốt đơn.",
+  "zalo": "0938532762",
+  "btn": "Đặt qua Zalo",
+  "foot": "Giá và số lượng có thể thay đổi. Nhắn Zalo để xác nhận trước khi chuyển khoản."
+ },
+ "cats": [
+  {
+   "n": "Mini GT",
+   "c": "#E4262C"
+  },
+  {
+   "n": "Kaido House",
+   "c": "#FFC400"
+  },
+  {
+   "n": "Poprace",
+   "c": "#1E6BFF"
+  },
+  {
+   "n": "Xe Mica",
+   "c": "#19C47E"
+  },
+  {
+   "n": "Khác",
+   "c": "#8B3DFF"
+  }
+ ],
+ "items": []
+}
