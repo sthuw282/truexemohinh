@@ -1,10 +1,10 @@
 {
  "shop": {
   "name": "True xe mô hình",
-  "tag": "Mini GT, Kaido House, Poprace, Xe Mica và nhiều hãng khác. Thích xe nào cứ nhắn Zalo để chốt đơn.",
+  "tag": "Mini GT, Kaido House, Poprace, Xe Mica và nhiều hãng khác.",
   "zalo": "0938532762",
   "btn": "Đặt qua Zalo",
-  "foot": "Giá và số lượng có thể thay đổi. Nhắn Zalo để xác nhận trước khi chuyển khoản."
+  "foot": "Giá và số lượng có thể thay đổi. Nhắn Zalo để mình xác nhận trước khi chuyển khoản nhé."
  },
  "cats": [
   {
@@ -28,5 +28,43 @@
    "c": "#8B3DFF"
   }
  ],
- "items": []
+ "items": [
+  {
+   "id": "xmv9rxzz3",
+   "brand": "Mini GT",
+   "name": "Nissan LB-Super Silhouette S15 SILVIA #555 Team MINI GT Liberty Walk 2025 Formula Drift Halloween Special",
+   "series": "",
+   "color": "",
+   "hex": "#3366cc",
+   "price": 300000,
+   "stock": 2,
+   "desc": "Loose đẹp",
+   "img": "images/mv9rx8xmroos.jpg"
+  },
+  {
+   "id": "xmv9rv0ty",
+   "brand": "Mini GT",
+   "name": "Nissan LB-ER34 Super Silhouette SKYLINE Suppaiman Okinawa",
+   "series": "",
+   "color": "",
+   "hex": "#3366cc",
+   "price": 280000,
+   "stock": 5,
+   "desc": "New box",
+   "img": "images/mv9ruzhykou0.jpg"
+  },
+  {
+   "id": "xmv9rn5oi",
+   "brand": "Mini GT",
+   "name": "Nissan SILVIA (S15) LB-Super Silhouette AMOCULTURE",
+   "series": "",
+   "color": "",
+   "hex": "#3366cc",
+   "price": 280000,
+   "stock": 1,
+   "desc": "Loose đẹp",
+   "img": "images/mv9rn2k25w1n.jpg"
+  }
+ ],
+ "banners": []
 }
